@@ -1,0 +1,22 @@
+{
+    "name": "user/testes-unitarios-php",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago",
+            "email": "thethiagoventurini@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
